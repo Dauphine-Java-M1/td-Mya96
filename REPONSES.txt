@@ -1,0 +1,74 @@
+
+
+TD00-MAVEN
+----
+
+EXERCICE 1
+----------
+
+4- La version de Maven installée sur ma machine est la version 3.5.4
+
+
+5- *groupId : permet d'identifier un groupe qui a créé le projet. Cette clé permet d'organiser et de retrouver plus facilement et rapidement le projet.
+*artifactId : cette balise indique un nom unique utilisé pour nommer les artifacts à construire.
+
+6- Le repertoire target conitent les fichiers .class issus de la compilation sont stockés dans ce répertoire.
+
+8- Le Class path est un paramètre passé à une machine virtuelle Java qui définit le chemin d'accès au répertoire où se trouvent les classes et les packages Java afin qu'elle les exécute. 
+C'est le chargeur de classe qui parcourt les répertoires spécifiés par le classpath pour trouver où sont installées les classes requises par un programme Java. 
+
+13-La propriété maven.compiler.target est un plugin permettant de compiler les projets maven
+On doit lui donner la valeur 1.7.
+
+EXERCICE 2
+----------
+
+1- On obtient un message d'erreur en exécutant le fichier jar.
+
+
+EXERCICE 3
+----------
+3- Sysout (ctrl+espace) est l'autocomplétion de la méthode system.out.println()
+
+4-toStr (ctrl+espace) est l'autocomplétion de la méthode toString() qui transforme un Objet en chaine de caractères
+
+5-main (ctrl+espace) dans une classe est l'autocomplétion de la méthode principale main
+
+6- get ou set  puis ctrl+espace correspondent aux accesseurs ( getter ou setter ) permettant de modifier ou récupérer les attributs d'une classe. 
+
+7- Alt+Shift+R permet de renommer une classe ou un attribut .
+
+8- String puis Ctrl affiche la description ou définition du type String.
+
+
+TD00BIS-GIT:
+------------
+
+EXERCICE 1
+----------
+
+5- git diff montre les changements effectués dans le code
+
+8- Hash du premier commit : commit dcd1fd397bd35154a07c3285da5a16e2d8e57d08
+
+EXERCICE 2
+----------
+
+3- Gitk affiche des informations relatives à chaque validation et les fichiers dans les arborescences de chaque révision.
+
+5- En tentant d'envoyer les derniers changements sur le dépot git il y'a erreur.
+
+6- On peut voir voir l'historique des commits dans la partie supérieure de la fenêtre avec un graphique d'enchaînement. Le visualisateur de diff dans la partie inférieure de la fenêtre affiche les modifications introduites par le commit sélectionné.
+
+7- Il pourrait y avoir un conflit de fusion 
+
+EXERCICE 3
+----------
+
+2-  En exécutant les tests tel quel en faisant un clic droit, puis Run as et JUnit test on observe un état de réussite du test.
+* assertTrue (false) renvoie un échec.
+* asserTrue est une méthode utile pour déterminer l'état de réussite ou d'échec d'un scénario de test.
+
+
+
+
